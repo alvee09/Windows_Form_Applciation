@@ -20,6 +20,7 @@ namespace FormApplication
         //public static string lastName;
         //public static string dob;
         //public static string userType;
+        public static Boolean userExist = false;
         public newUser()
         {
             InitializeComponent();
@@ -47,10 +48,23 @@ namespace FormApplication
 
         private void submitButton_Click(object sender, EventArgs e)
         {
-            //dob = dobInput.Text();
-            if ( passwordInput.Text != passwordInput2.Text)
+            var logFile = File.ReadAllLines("login.txt");
+            var logList = new List<string>(logFile);
+
+            IEnumerable<string> ienum = (IEnumerable<string>)logList;
+            foreach (var item in ienum)
             {
-                MessageBox.Show("Passwords does not match", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                string user = item.Split(',')[0];
+                if (user == usernameInput.Text)
+                {
+                   userExist= true;
+                }
+            }
+            //dob = dobInput.Text();
+            if ( passwordInput.Text != passwordInput2.Text || userExist)
+            {
+                MessageBox.Show("Invalid Username or password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                
             }
             else
             {
@@ -64,10 +78,10 @@ namespace FormApplication
                 addUser = addUser + dob;
 
 
-                var logFile = File.ReadAllLines("login.txt");
-                var logList = new List<string>(logFile);
+                //var logFile = File.ReadAllLines("login.txt");
+                //var logList = new List<string>(logFile);
 
-                IEnumerable<string> ienum = (IEnumerable<string>)logList;
+                //IEnumerable<string> ienum = (IEnumerable<string>)logList;
                 //MessageBox.Show(userTypeInput.Text);
                 ienum = ienum.Append(addUser);
                 //MessageBox.Show(ienum.Last());

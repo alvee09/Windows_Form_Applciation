@@ -44,7 +44,10 @@ namespace FormApplication
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            fileLoc = "";
+            fileExist = false;
             richTextBox1.ResetText();
+            
         }
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
