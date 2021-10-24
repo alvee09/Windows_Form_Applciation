@@ -67,7 +67,7 @@ namespace FormApplication
                 {
                     if(items[1].Equals(password))
                     {
-                        var form2 = new Form2(items[0]);
+                        var form2 = new Form2(items[0], items[2]);
                         found = true;
                         form2.Show();
                         

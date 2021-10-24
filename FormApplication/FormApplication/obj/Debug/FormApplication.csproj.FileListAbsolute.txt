@@ -10,3 +10,6 @@ C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormAppl
 C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.pdb
 C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.Form2.resources
 C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.newUser.resources
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.csproj.CopyComplete
