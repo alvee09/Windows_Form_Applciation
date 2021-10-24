@@ -1,0 +1,12 @@
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\bin\Debug\FormApplication.exe.config
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\bin\Debug\FormApplication.exe
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\bin\Debug\FormApplication.pdb
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.csprojAssemblyReference.cache
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.Form1.resources
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.csproj.GenerateResource.cache
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.exe
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.pdb
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.Form2.resources
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Debug\FormApplication.newUser.resources
