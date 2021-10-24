@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\bin\Release\FormApplication.exe.config
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\bin\Release\FormApplication.exe
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\bin\Release\FormApplication.pdb
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\bin\Release\DocumentFormat.OpenXml.xml
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Release\FormApplication.about.resources
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Release\FormApplication.Form1.resources
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Release\FormApplication.Form2.resources
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Release\FormApplication.newUser.resources
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Release\FormApplication.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Release\FormApplication.csproj.GenerateResource.cache
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Release\FormApplication.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Release\FormApplication.csproj.CopyComplete
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Release\FormApplication.exe
+C:\Users\User\Documents\GitHub\Windows_Form_Applciation\FormApplication\FormApplication\obj\Release\FormApplication.pdb

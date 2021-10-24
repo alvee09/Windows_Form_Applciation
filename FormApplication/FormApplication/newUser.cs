@@ -57,7 +57,11 @@ namespace FormApplication
                 string addUser = usernameInput.Text + ",";
                 addUser = addUser + passwordInput.Text + ",";
                 addUser = addUser + userTypeInput.Text + "," + firstNameInput.Text + "," + lastNameInput.Text + ",";
-                addUser = addUser + dobInput.Value.ToString();
+
+                string dob = dobInput.Value.ToString();
+                dob = dob.Split()[0];
+                dob = dob.Replace("/", "-");
+                addUser = addUser + dob;
 
 
                 var logFile = File.ReadAllLines("login.txt");
@@ -71,6 +75,11 @@ namespace FormApplication
                 MessageBox.Show("New user Created!!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             //MessageBox.Show(dobInput.Value.ToString());
+        }
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 

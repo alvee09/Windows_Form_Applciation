@@ -81,5 +81,10 @@ namespace FormApplication
             }
             //MessageBox.Show("Invalid Username or passowrd", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
