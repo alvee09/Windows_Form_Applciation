@@ -31,10 +31,10 @@
             this.usernameField = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.passwordField = new System.Windows.Forms.RichTextBox();
             this.NewUserButton = new System.Windows.Forms.Button();
             this.login = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.passwordField2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // usernameField
@@ -64,14 +64,6 @@
             this.label2.Size = new System.Drawing.Size(106, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Password";
-            // 
-            // passwordField
-            // 
-            this.passwordField.Location = new System.Drawing.Point(381, 217);
-            this.passwordField.Name = "passwordField";
-            this.passwordField.Size = new System.Drawing.Size(264, 45);
-            this.passwordField.TabIndex = 3;
-            this.passwordField.Text = "";
             // 
             // NewUserButton
             // 
@@ -106,15 +98,24 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // passwordField2
+            // 
+            this.passwordField2.Location = new System.Drawing.Point(381, 234);
+            this.passwordField2.Name = "passwordField2";
+            this.passwordField2.PasswordChar = '*';
+            this.passwordField2.Size = new System.Drawing.Size(264, 31);
+            this.passwordField2.TabIndex = 7;
+            this.passwordField2.TextChanged += new System.EventHandler(this.passwordField2_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 590);
+            this.Controls.Add(this.passwordField2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.login);
             this.Controls.Add(this.NewUserButton);
-            this.Controls.Add(this.passwordField);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.usernameField);
@@ -132,10 +133,10 @@
         private System.Windows.Forms.RichTextBox usernameField;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RichTextBox passwordField;
         private System.Windows.Forms.Button NewUserButton;
         private System.Windows.Forms.Button login;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox passwordField2;
     }
 }
 

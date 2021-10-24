@@ -44,7 +44,7 @@ namespace FormApplication
         private void login_Click(object sender, EventArgs e)
         {
             username = usernameField.Text;
-            password = passwordField.Text;
+            password = passwordField2.Text;
 
             var logFile = File.ReadAllLines("login.txt");
             var logList = new List<string>(logFile);
@@ -85,6 +85,11 @@ namespace FormApplication
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void passwordField2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
