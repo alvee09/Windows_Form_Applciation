@@ -25,7 +25,7 @@ namespace FormApplication
             username = userneme;
             userType = user_type;
             InitializeComponent();
-            MessageBox.Show(userneme);
+            //MessageBox.Show(userneme);
         }
 
         private void Form2_Load(object sender, EventArgs e)
